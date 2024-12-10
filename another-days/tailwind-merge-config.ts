@@ -1,0 +1,52 @@
+import { extendTailwindMerge } from 'tailwind-merge';
+
+const twMerge = extendTailwindMerge({
+  extend: {
+    classGroups: {
+      'font-size': [
+        'text-h1',
+        'text-h2',
+        'text-h3',
+        'text-h4',
+        'text-subtitle1',
+        'text-subtitle2',
+        'text-subtitle3',
+        'text-subtitle4',
+        'text-body1',
+        'text-body2',
+        'text-body3',
+        'text-body4',
+        'text-body5',
+        'text-button1',
+        'text-button2',
+        'text-button3',
+        'text-caption1',
+        'text-caption2',
+        'title-24-bold',
+        'title-24-semibold',
+        'title-22-bold',
+        'title-22-semibold',
+        'title-20-bold',
+        'title-20-semibold',
+        'title-18-bold',
+        'title-18-semibold',
+        'title-16-semibold',
+        'title-16-medium',
+        'body-15-semibold',
+        'body-15-medium',
+        'body-15-regular',
+        'body-14-semibold',
+        'body-14-medium',
+        'body-14-regular',
+        'body-13-semibold',
+        'body-13-medium',
+        'body-13-regular',
+        'body-12-semibold',
+        'body-12-medium',
+        'body-12-regular',
+      ],
+    },
+  },
+});
+
+export default twMerge;
